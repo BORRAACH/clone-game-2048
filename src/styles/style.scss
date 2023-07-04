@@ -1,4 +1,5 @@
 @import './components/functions/style.sass';
+@import './components/topBox/style.sass';
 @import './components/blocksCase/block.sass';
 
 * {
@@ -14,4 +15,6 @@ body {
   @include flex($js: center, $ai: center);
 
   height: 100vh;
+
+  background: #faf8ef;
 }

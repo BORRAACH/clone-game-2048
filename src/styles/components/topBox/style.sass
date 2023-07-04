@@ -1,0 +1,66 @@
+@import '../functions/style.sass'
+@import '../fonts/font.sass'
+  
+.top-box 
+  padding: .85rem
+
+  @include flex($js: space-between, $ai: center)
+
+  .left-box
+    h1
+      font-size: 6rem
+      font-family: $open-sans
+
+      color: #776E65
+
+    p
+      color: #776E65
+      font-size: 1.2rem
+      font-weight: 500
+      font-family: $open-sans
+
+      
+      #txt-2048
+        font-weight: 700
+    a
+      color: #776E65
+      font-size: 1.2rem
+      font-weight: 700
+      font-family: $open-sans
+
+
+
+  .right-box 
+    display: flex
+    flex-direction: column
+
+    gap: 2rem
+
+    .score-content
+      display: flex
+      gap: .8rem
+
+      .points 
+        width: 45%
+        text-align: center
+        background: #bbada0ad
+        padding: 0.9rem 0
+        border-radius: 5px
+
+      .numbers-points
+        color: #776E65
+        font-size: 1.34rem
+  .new-game
+    bottom: 0
+    top: 2rem
+
+    font-size: 1.5rem
+    font-family: $open-sans
+
+    border-radius: 3px
+    border: none
+
+    padding: .7rem 1rem
+
+    background: #8C7765
+    color: #FAF8EF
